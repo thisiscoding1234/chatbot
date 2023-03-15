@@ -11,15 +11,20 @@ def lc():
     g=input("enter string") 
     c=g.lower() 
     print(g+"-->"+c) 
+    if g=="/exit":
+        functs()
+    
 
 def uc(): 
     print("MultiCasE to UPPERCASE")
     a=input("enter string") 
     b=a.upper() 
     print(a+"-->"+b) 
+    if a=="/exit":
+        functs()
+    
 
 def functs(): 
-    d=90
     d=int(input(''' 
     1)ascii art 
     2)just chat 
@@ -29,8 +34,9 @@ def functs():
     6) 
     7) 
     8) 
-    9) 
-    plese enter one of the numbers '''))
+    9)
+    enter /exit to exit at any time 
+    plese enter one of the numbers'''))
     if d==3: 
         lc()
     elif d==4:
