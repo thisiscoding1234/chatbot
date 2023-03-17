@@ -1,7 +1,9 @@
 import textblob as t
 import sys,random,re,string
 
+
 def wc(): 
+    global g
     print("hello!") 
     g=input("who are you?")
     x=input("well, "+g+" how are you?") 
@@ -11,21 +13,20 @@ def lc():
     g=input("enter string") 
     c=g.lower() 
     print(g+"-->"+c) 
-    if g=="/exit":
-        functs()
-    
+
+def ex():
+    print("goodbye, "+g+" , see you again soon!")
+    quit()
 
 def uc(): 
     print("MultiCasE to UPPERCASE")
     a=input("enter string") 
     b=a.upper() 
     print(a+"-->"+b) 
-    if a=="/exit":
-        functs()
     
 
 def functs(): 
-    d=int(input(''' 
+    print(''' 
     1)ascii art 
     2)just chat 
     3)MultiCasE to lowercase 
@@ -36,12 +37,20 @@ def functs():
     8) 
     9)
     enter /exit to exit at any time 
-    plese enter one of the numbers'''))
-    if d==3: 
-        lc()
-    elif d==4:
-        uc()
+    enter /func to see this again''')
     
 
+def neo():
+    b=input("📎--")
+    try:
+        if b == "/exit":
+            ex()
+        if b == "/func":
+            functs()
+    except:
+        print("an error occured")
+    
 wc() 
 functs() 
+while True:
+    neo()
