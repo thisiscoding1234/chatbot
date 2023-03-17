@@ -40,7 +40,7 @@ def functs():
     enter /func to see this again''')
     
 
-def neo():
+def nov():
     b=input("📎--")
     try:
         if b == "/exit":
@@ -53,4 +53,4 @@ def neo():
 wc() 
 functs() 
 while True:
-    neo()
+    nov()
