@@ -1,7 +1,6 @@
 import textblob as t
 import sys
 
-
 def wc(): 
     global g
     print("hello!") 
@@ -56,7 +55,7 @@ U  /"\  u U /"___|    ___         ___         U  /"\  uU |  _"\ u  |_ " _|
 /_/   \_\   \____|  U/| |\u     U/| |\u       /_/   \_\  |_| \_\   u |_|U   
  \\    >>  _// \\.-,_|___|_,-.-,_|___|_,-.     \\    >>  //   \\_  _// \\_  
 (__)  (__)(__)(__)\_)-' '-(_/ \_)-' '-(_/     (__)  (__)(__)  (__)(__) (__) 
-what did you expect?
+what did you expect? 📎📎📎
             ''')
     except:
         print("an error occured")
