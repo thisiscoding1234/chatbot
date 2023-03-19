@@ -1,5 +1,5 @@
 import textblob as t
-import sys,random,re,string
+import sys
 
 
 def wc(): 
