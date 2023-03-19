@@ -29,13 +29,8 @@ def functs():
     print(''' 
     1)ascii art 
     2)just chat 
-    3)MultiCasE to lowercase 
-    4)MultiCasE TO UPPERCASE 
-    5) 
-    6) 
-    7) 
-    8) 
-    9)
+    3)MultiCasE to lowercase (/lowercase)
+    4)MultiCasE TO UPPERCASE (/uppercase)
     enter /exit to exit at any time 
     enter /func to see this again''')
     
@@ -47,6 +42,10 @@ def nov():
             ex()
         if b == "/func":
             functs()
+        if b == "/lowercase":
+            lc()
+        if b =="/uppercase":
+            uc()
     except:
         print("an error occured")
     
