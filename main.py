@@ -6,8 +6,11 @@ g=""
 def wc(): 
     global g
     print("hello!") 
-    g=input("who are you?")
-    x=input("well, "+g+" how are you?") 
+    g=input('''who are you?
+    📎-- ''')
+    x=input('''well, "+g+" how are you? 
+    📎-- ''') 
+    print("i'm also "+x+" too!")
 
 def lc(): 
     print("MultiCasE to lowercase")
