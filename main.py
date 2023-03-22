@@ -1,6 +1,7 @@
 import textblob as t
 import sys,random,re,string
 
+g=""
 
 def wc(): 
     global g
@@ -16,7 +17,7 @@ def lc():
 
 def ex():
     print("goodbye, "+g+" , see you again soon!")
-    quit()
+    sys.exit(0)
 
 def uc(): 
     print("MultiCasE to UPPERCASE")
@@ -42,9 +43,9 @@ def functs():
 
 def nov():
     b=input("📎--")
-    try:
-        if b == "/exit":
-            ex()
+    if b == "/exit":
+        ex()
+    try:    
         if b == "/func":
             functs()
     except:
