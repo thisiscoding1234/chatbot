@@ -2,9 +2,9 @@ import textblob as t
 import sys,random,re,string
 
 g=""
-
+=======
+import sys
 def wc(): 
-    global g
     print("hello!") 
     g=input('''who are you?
     📎-- ''')
@@ -31,15 +31,11 @@ def uc():
 
 def functs(): 
     print(''' 
-    1)ascii art 
+    there are many functions avalible
+    1)ascii art (/ascii)
     2)just chat 
-    3)MultiCasE to lowercase 
-    4)MultiCasE TO UPPERCASE 
-    5) 
-    6) 
-    7) 
-    8) 
-    9)
+    3)MultiCasE to lowercase (/lowercase)
+    4)MultiCasE TO UPPERCASE (/uppercase)
     enter /exit to exit at any time 
     enter /func to see this again''')
     
@@ -51,6 +47,21 @@ def nov():
     try:    
         if b == "/func":
             functs()
+        if b == "/lowercase":
+            lc()
+        if b =="/uppercase":
+            uc()
+        if b == "/ascii":
+            print('''
+                _        ____                                 _       ____      _____   
+U  /"\  u U /"___|    ___         ___         U  /"\  uU |  _"\ u  |_ " _|  
+ \/ _ \/  \| | u     |_"_|       |_"_|         \/ _ \/  \| |_) |/    | |    
+ / ___ \   | |/__     | |         | |          / ___ \   |  _ <     /| |\   
+/_/   \_\   \____|  U/| |\u     U/| |\u       /_/   \_\  |_| \_\   u |_|U   
+ \\    >>  _// \\.-,_|___|_,-.-,_|___|_,-.     \\    >>  //   \\_  _// \\_  
+(__)  (__)(__)(__)\_)-' '-(_/ \_)-' '-(_/     (__)  (__)(__)  (__)(__) (__) 
+what did you expect? 📎📎📎
+            ''')
     except:
         print("an error occured")
     
