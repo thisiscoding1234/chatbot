@@ -1,10 +1,10 @@
 import textblob as t
 import sys,random,re,string
 
-g=""
-=======
+
 import sys
-def wc(): 
+def wc():
+    global g 
     print("hello!") 
     g=input('''who are you?
     📎-- ''')
