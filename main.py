@@ -16,7 +16,7 @@ def lc():
     print("MultiCasE to lowercase")
     g=input("enter string") 
     c=g.lower() 
-    print(g+"-->"+c) 
+    print(g+"-->"+c+","+g+"!") 
 
 def ex():
     print("goodbye, "+g+" , see you again soon!")
@@ -26,7 +26,7 @@ def uc():
     print("MultiCasE to UPPERCASE")
     a=input("enter string") 
     b=a.upper() 
-    print(a+"-->"+b) 
+    print(a+"-->"+b+","+g+"!") 
     
 
 def functs(): 
@@ -60,8 +60,7 @@ def nov():
   >=====>>=>         >=>  >=>        >=> >=>       >=>    >=>   >=>      >=>   
  >=>      >=>  >=>    >=>  >=>   >=> >=> >=>        >=>   >=>   >=>      >=>   
 >=>        >=>   >=>>=>      >===>   >=> >=>         >==>>>==> >==>       >=> 
-what did you expect? 📎📎📎
-            ''')
+what did you expect,'''+g+"?")
     except:
         print("an error occured")
     
