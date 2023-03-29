@@ -15,7 +15,7 @@ def wc():
 def lc(): 
     print("MultiCasE to lowercase")
     x=input("enter string") 
-    c=g.lower() 
+    c=x.lower() 
     print(x+"-->"+c+","+g+"!") 
 
 def ex():
