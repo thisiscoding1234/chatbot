@@ -8,7 +8,7 @@ def wc():
     print("hello!") 
     g=input('''who are you?
     📎-- ''')
-    x=input('''well, "+g+" how are you? 
+    x=input("well,"+g+'''how are you? 
     📎-- ''') 
     print("i'm also "+x+" too!")
 
